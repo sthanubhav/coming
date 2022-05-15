@@ -59,7 +59,7 @@ const App = () => {
           </div>
         </div>
       ) : (
-        <section className="area">
+        <div className="area">
           <div className="context">
             <h1>Coming Soon!!</h1>
             <h2>Website in under Development. Please wait patiently.</h2>
@@ -114,7 +114,7 @@ const App = () => {
             <li></li>
             <li></li>
           </ul>
-        </section>
+        </div>
       )}
     </>
   );

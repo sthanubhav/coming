@@ -1,16 +1,18 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700");
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    sans-serif,"Exo";
   background-color: #f1f1f1;
   color: #333;
+  margin:0px;
 }
 
 .loading {
@@ -146,13 +148,9 @@ body {
   text-transform: uppercase;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Exo:400,700");
 
 
 
-body {
-  font-family: "Exo", sans-serif;
-}
 
 .context {
   display: flex;
@@ -299,4 +297,17 @@ body {
 }
 .social-icon{
    margin-right: 20px;
+}
+
+@media only screen and (max-width: 750px) {
+  .context {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    text-align: center;
+  }
 }
